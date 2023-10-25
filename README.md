@@ -7,7 +7,7 @@ Step 1:Define the state transition model F, the observation model H, the process
 
 Step 2: Create a KalmanFilter object with these parameters.</br>
 
-Step 3:Simulate the movement of the object for a number of time steps, generating true states and measurements. Step 3:For each measurement, predict the next state using kf.predict(). </br>
+Step 3:Simulate the movement of the object for a number of time steps, generating true states and measurements (For each measurement, predict the next state using kf.predict(). </br>)
 
 Step 4:Update the state estimate based on the measurement using kf.update(). </br>
 
